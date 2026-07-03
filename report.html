@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>建筑结构可靠性鉴定报告</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "SimSun", "宋体", serif;
+            max-width: 210mm;
+            min-height: 297mm;
+            margin: 10mm auto;
+            padding: 0 10mm;
+            background: #fff;
+            position: relative;
+        }
+        .watermark-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+        .watermark {
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            font-size: 13px;
+            color: rgba(160, 160, 160, 0.15);
+            line-height: 4;
+            text-align: center;
+            transform: rotate(-25deg);
+        }
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+        }
+        .main-title {
+            font-size: 22px;
+            font-weight: bold;
+            text-align: left; /* 标题恢复左对齐 */
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 16px;
+            margin-bottom: 15px;
+            table-layout: fixed; /* 固定表格布局，宽度不跑偏 */
+        }
+        td {
+            border: 1px solid #000;
+            padding: 9px 12px;
+            line-height: 1.6;
+            vertical-align: middle;
+        }
+        /* 左侧单元格加宽至40%，强制单行不换行 */
+        td:first-child {
+            width: 40%;
+            font-weight: bold;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        td:last-child {
+            text-align: left;
+            white-space: normal;
+        }
+        .long-text {
+            white-space: normal;
+        }
+    </style>
+</head>
+<body>
+
+<div class="watermark-container">
+    <div class="watermark">
+        广东粤检工程质量检测有限公司 &nbsp;&nbsp;&nbsp;&nbsp; 广东粤检工程质量检测有限公司 &nbsp;&nbsp;&nbsp;&nbsp; 广东粤检工程质量检测有限公司
+        <br><br><br><br>
+        广东粤检工程质量检测有限公司 &nbsp;&nbsp;&nbsp;&nbsp; 广东粤检工程质量检测有限公司 &nbsp;&nbsp;&nbsp;&nbsp; 广东粤检工程质量检测有限公司
+        <br><br><br><br>
+        广东粤检工程质量检测有限公司 &nbsp;&nbsp;&nbsp;&nbsp; 广东粤检工程质量检测有限公司 &nbsp;&nbsp;&nbsp;&nbsp; 广东粤检工程质量检测有限公司
+    </div>
+</div>
+
+<div class="content-wrapper">
+    <div class="main-title">建筑结构可靠性（安全性、使用性）鉴定报告</div>
+
+    <table>
+        <tr>
+            <td>鉴定单位</td>
+            <td>广东粤检工程质量检测有限公司</td>
+        </tr>
+        <tr>
+            <td>房屋地址</td>
+            <td>广州市海珠区瀛洲南路312/314号综合楼B02</td>
+        </tr>
+        <tr>
+            <td>委托单位</td>
+            <td>广州市极邦供应链有限公司</td>
+        </tr>
+        <tr>
+            <td>结构类别</td>
+            <td>首层现浇钢筋混凝土；二层：排架结构</td>
+        </tr>
+        <tr>
+            <td>竣工年份</td>
+            <td>2000年</td>
+        </tr>
+        <tr>
+            <td>用途</td>
+            <td>仓储</td>
+        </tr>
+        <tr>
+            <td>鉴定楼层</td>
+            <td>整栋</td>
+        </tr>
+        <tr>
+            <td>建筑高度</td>
+            <td>9.2m</td>
+        </tr>
+        <tr>
+            <td>鉴定面积</td>
+            <td>约400㎡</td>
+        </tr>
+        <tr>
+            <td>安全性鉴定结论</td>
+            <td class="long-text">本房屋的结构安全性评定为Bsu级，满足结构使用安全要求。本报告有效期为1年，仅对结构安全作出鉴定，其它方面由相关单位处理。</td>
+        </tr>
+        <tr>
+            <td>处理建议</td>
+            <td class="long-text">建筑物使用期间应注意定期维护检查，如需进行涉及结构荷载较大变化的改造，或有倾斜、裂缝发展等情况，业主应及时向具备资质的技术单位反映情况以便采取有效处理措施。要求业主在后期使用过程中，不上人屋面不得大于0.5kN/㎡，未经技术鉴定或设计许可，不得改变结构的用途和使用环境，不得拆改结构构件和进行加层改造。</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
